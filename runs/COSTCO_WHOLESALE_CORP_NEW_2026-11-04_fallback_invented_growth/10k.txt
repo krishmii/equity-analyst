@@ -1,0 +1,124 @@
+SOURCE: https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm
+ACCESSION: 0000909832-26-000093
+NOTE: excerpt (pages 37-41: the financial statements), saved through the browser because this run's environment could not reach EDGAR directly.
+
+COSTCO WHOLESALE CORPORATION
+CONSOLIDATED STATEMENTS OF INCOME
+(amounts in millions, except per share data)
+
+52 Weeks Ended
+August 30,
+2026 August 31,
+2025 September 1,
+2024
+REVENUE
+Net sales $ 297,247 $ 269,912 $ 249,625
+Membership fees 5,907 5,323 4,828
+Total revenue 303,154 275,235 254,453
+OPERATING EXPENSES
+Merchandise costs 264,279 239,886 222,358
+Selling, general and administrative 27,190 24,966 22,810
+Operating income 11,685 10,383 9,285
+OTHER INCOME (EXPENSE)
+Interest expense (145) (154) (169)
+Interest income and other, net 711 589 624
+INCOME BEFORE INCOME TAXES 12,251 10,818 9,740
+Provision for income taxes 3,025 2,719 2,373
+
+NET INCOME $ 9,226 $ 8,099 $ 7,367
+
+NET INCOME PER COMMON SHARE:
+
+Basic $ 20.78 $ 18.24 $ 16.59
+Diluted $ 20.76 $ 18.21 $ 16.56
+Shares used in calculation (000’s)
+Basic 443,953 443,985 443,914
+Diluted 444,427 444,803 444,759
+
+The accompanying notes are an integral part of these consolidated financial statements.
+37
+
+COSTCO WHOLESALE CORPORATION
+CONSOLIDATED BALANCE SHEETS
+(amounts in millions, except par value and share data)
+
+August 30,
+2026 August 31,
+2025
+ASSETS
+CURRENT ASSETS
+Cash and cash equivalents $ 20,207 $ 14,161
+Short-term investments 1,094 1,123
+Receivables, net 3,959 3,203
+Merchandise inventories 19,324 18,116
+Other current assets 1,998 1,777
+Total current assets 46,582 38,380
+OTHER ASSETS
+Property and equipment, net 35,633 31,909
+Operating lease right-of-use assets 2,697 2,725
+Other long-term assets 4,133 4,085
+TOTAL ASSETS $ 89,045 $ 77,099
+LIABILITIES AND EQUITY
+CURRENT LIABILITIES
+Accounts payable $ 22,591 $ 19,783
+Accrued salaries and benefits 5,641 5,205
+Accrued member rewards 3,037 2,677
+Deferred membership fees 3,006 2,854
+Current portion of long-term debt 2,248 75
+Other current liabilities 7,429 6,514
+Total current liabilities 43,952 37,108
+OTHER LIABILITIES
+Long-term debt, excluding current portion 3,914 5,713
+Long-term operating lease liabilities 2,414 2,460
+Other long-term liabilities 2,962 2,654
+TOTAL LIABILITIES 53,242 47,935
+COMMITMENTS AND CONTINGENCIES
+EQUITY
+Additional paid-in capital 8,830 8,282
+Accumulated other comprehensive loss (1,620) (1,770)
+Retained earnings 28,591 22,650
+
+TOTAL EQUITY 35,803 29,164
+TOTAL LIABILITIES AND EQUITY $ 89,045 $ 77,099
+39
+
+COSTCO WHOLESALE CORPORATION
+CONSOLIDATED STATEMENTS OF EQUITY
+BALANCE AT SEPTEMBER 1, 2024 443,126 2 7,829 (1,828) 17,619 23,622
+BALANCE AT AUGUST 31, 2025 443,237 2 8,282 (1,770) 22,650 29,164
+BALANCE AT AUGUST 30, 2026 443,266 $ 2 $ 8,830 $ (1,620) $ 28,591 $ 35,803
+40
+
+COSTCO WHOLESALE CORPORATION
+CONSOLIDATED STATEMENTS OF CASH FLOWS
+(amounts in millions)
+
+52 Weeks Ended
+August 30,
+2026 August 31,
+2025 September 1,
+2024
+CASH FLOWS FROM OPERATING ACTIVITIES
+Net income $ 9,226 $ 8,099 $ 7,367
+Depreciation and amortization 2,674 2,426 2,237
+Non-cash lease expense 318 303 315
+Stock-based compensation 924 860 818
+Deferred income taxes 306 (108) (60)
+Other non-cash operating activities, net 49 (9) 51
+Merchandise inventories (1,153) 559 (2,068)
+Accounts payable 2,755 404 1,938
+Other operating assets and liabilities, net 718 801 741
+Net cash provided by operating activities 15,817 13,335 11,339
+CASH FLOWS FROM INVESTING ACTIVITIES
+Additions to property and equipment (6,435) (5,498) (4,710)
+Purchases of short-term investments (788) (1,028) (1,470)
+Maturities of short-term investments 811 1,141 1,790
+Other investing activities, net 34 74 (19)
+Net cash used in investing activities (6,378) (5,311) (4,409)
+41
+
+Note 1—Summary of Significant Accounting Policies
+Description of Business
+Costco Wholesale Corporation (Costco or the Company), a Washington corporation, and its subsidiaries operate membership warehouses and e-commerce sites based on the concept that offering members low prices on a limited selection of nationally-branded and private-label products in a wide range of merchandise categories will produce high sales volumes and rapid inventory turnover. At August 30, 2026, Costco operated 939 warehouses worldwide: 647 in the United States (U.S.) located in 47 states, Washington, D.C., and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the U.K., 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland and New Zealand.
+Fiscal Year End
+The Company operates on a 52/53-week fiscal year basis with the year ending on the Sunday closest to August 31. References to 2026, 2025, and 2024 relate to the 52-week fiscal years ended August 30, 2026, August 31, 2025, and September 1, 2024.
