@@ -1,0 +1,106 @@
+{
+  "test1_seeded_eps": {
+    "folder": "runs/COSTCO_WHOLESALE_CORP_NEW_2026-11-04_fallback_seeded_eps",
+    "seeded": "$21.76 {line: 10-K \"Diluted $ 21.76 $ 18.21 $ 16.56\"}",
+    "marks": [
+      {
+        "id": 9,
+        "section": "Valuation Insights",
+        "num": "$21.76",
+        "kind": "line",
+        "body": "10-K \"Diluted $ 21.76 $ 18.21 $ 16.56\"",
+        "raw": "$21.76 {line: 10-K \"Diluted $ 21.76 $ 18.21 $ 16.56\"}",
+        "context": "| 5 | Diluted EPS, GAAP | ",
+        "code": "wrong",
+        "note": "quoted line is not in 10-K; real line: \"Diluted $ 20.76 $ 18.21 $ 16.56\"",
+        "fix": "$20.76 {line: 10-K \"Diluted $ 20.76 $ 18.21 $ 16.56\"}",
+        "mark": "wrong",
+        "model": "not run (no API_KEY in .env)"
+      }
+    ]
+  },
+  "test2_invented_growth": {
+    "folder": "runs/COSTCO_WHOLESALE_CORP_NEW_2026-11-04_fallback_invented_growth",
+    "planted": "Revenue grew 14.14% {calc: 303,154 / 275,235 - 1}, from $275,235M {xbrl: RevenueFromContractWithCustomerExcludingAssessedTax 2025-08-31} to $303,154M {xbrl: RevenueFromContractWithCustomerExcludingAssessedTax 2026-08-30}.",
+    "marks": [
+      {
+        "id": 2,
+        "section": "Overview",
+        "num": "$303,154M",
+        "kind": "xbrl",
+        "body": "RevenueFromContractWithCustomerExcludingAssessedTax 2026-08-30",
+        "raw": "$303,154M {xbrl: RevenueFromContractWithCustomerExcludingAssessedTax 2026-08-30}",
+        "context": "Costco runs membership warehouses on \"the concept that offering members low prices on a limited selection of nationally-branded and private-label products in a wide range of merchandise categories will produce high sales volumes and rapid inventory turnover.\" [10-K, Note 1] It \"operated 939 warehouses worldwide\" at fiscal year end [10-K, Note 1]. Revenue has two lines: net sales and membership fees; membership fees were $5,907M {line: 10-K \"Membership fees 5,907 5,323 4,828\"} of ",
+        "code": "correct",
+        "note": "facts: RevenueFromContractWithCustomerExcludingAssessedTax 2026-08-30 = 303,154,000,000",
+        "fix": null,
+        "mark": "correct",
+        "model": "not run (no API_KEY in .env)"
+      },
+      {
+        "id": 4,
+        "section": "Valuation Insights",
+        "num": "14.14%",
+        "kind": "calc",
+        "body": "303,154 / 275,235 - 1",
+        "raw": "14.14% {calc: 303,154 / 275,235 - 1}",
+        "context": "Revenue grew ",
+        "code": "wrong",
+        "note": "recomputed 303,154 / 275,235 - 1 = 10.14%",
+        "fix": "10.14% {calc: 303,154 / 275,235 - 1}",
+        "mark": "wrong",
+        "model": "not run (no API_KEY in .env)"
+      },
+      {
+        "id": 5,
+        "section": "Valuation Insights",
+        "num": "$275,235M",
+        "kind": "xbrl",
+        "body": "RevenueFromContractWithCustomerExcludingAssessedTax 2025-08-31",
+        "raw": "$275,235M {xbrl: RevenueFromContractWithCustomerExcludingAssessedTax 2025-08-31}",
+        "context": "Revenue grew 14.14% {calc: 303,154 / 275,235 - 1}, from ",
+        "code": "correct",
+        "note": "facts: RevenueFromContractWithCustomerExcludingAssessedTax 2025-08-31 = 275,235,000,000",
+        "fix": null,
+        "mark": "correct",
+        "model": "not run (no API_KEY in .env)"
+      },
+      {
+        "id": 6,
+        "section": "Valuation Insights",
+        "num": "$303,154M",
+        "kind": "xbrl",
+        "body": "RevenueFromContractWithCustomerExcludingAssessedTax 2026-08-30",
+        "raw": "$303,154M {xbrl: RevenueFromContractWithCustomerExcludingAssessedTax 2026-08-30}",
+        "context": "Revenue grew 14.14% {calc: 303,154 / 275,235 - 1}, from $275,235M {xbrl: RevenueFromContractWithCustomerExcludingAssessedTax 2025-08-31} to ",
+        "code": "correct",
+        "note": "facts: RevenueFromContractWithCustomerExcludingAssessedTax 2026-08-30 = 303,154,000,000",
+        "fix": null,
+        "mark": "correct",
+        "model": "not run (no API_KEY in .env)"
+      },
+      {
+        "id": 7,
+        "section": "Valuation Insights",
+        "num": "$303,154M",
+        "kind": "xbrl",
+        "body": "RevenueFromContractWithCustomerExcludingAssessedTax 2026-08-30",
+        "raw": "$303,154M {xbrl: RevenueFromContractWithCustomerExcludingAssessedTax 2026-08-30}",
+        "context": "| 1 | Total revenue, FY2026 | ",
+        "code": "correct",
+        "note": "facts: RevenueFromContractWithCustomerExcludingAssessedTax 2026-08-30 = 303,154,000,000",
+        "fix": null,
+        "mark": "correct",
+        "model": "not run (no API_KEY in .env)"
+      }
+    ]
+  },
+  "test3_clean": {
+    "folder": "runs/COSTCO_WHOLESALE_CORP_NEW_2026-11-04_fallback",
+    "counts": {
+      "correct": 29,
+      "wrong": 0,
+      "unsupported": 0
+    }
+  }
+}

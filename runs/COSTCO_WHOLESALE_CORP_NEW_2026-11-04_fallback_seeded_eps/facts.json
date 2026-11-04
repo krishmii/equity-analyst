@@ -1,0 +1,356 @@
+{
+  "ticker": "COST",
+  "cik": "0000909832",
+  "company": "COSTCO WHOLESALE CORP /NEW",
+  "price": 896.48,
+  "price_note": "Nasdaq close 2026-09-24, the last close before the release (accepted 16:17:37 ET, after the close)",
+  "filings": {
+    "10-K": {
+      "form": "10-K",
+      "accession": "0000909832-26-000093",
+      "report_date": "2026-08-30",
+      "accepted": "2026-10-06 21:13:15"
+    },
+    "10-Q": {
+      "form": "10-Q",
+      "accession": "0000909832-26-000051",
+      "report_date": "2026-05-10",
+      "accepted": "2026-06-03 16:43:00"
+    },
+    "8-K": {
+      "form": "8-K",
+      "accession": "0000909832-26-000084",
+      "report_date": "2026-09-24",
+      "accepted": "2026-09-24 16:17:37",
+      "items": "2.02,9.01",
+      "note": "newer 8-Ks (2026-10-14 Item 8.01, 2026-10-16 Item 5.02) skipped: not Item 2.02"
+    }
+  },
+  "filings_line": "Filings read: COSTCO WHOLESALE CORP /NEW (COST) \u2014 10-K 0000909832-26-000093; 10-Q 0000909832-26-000051; 8-K 0000909832-26-000084 (Ex. 99.1)",
+  "facts": {
+    "fiscal_year_end": "2026-08-30",
+    "prior_year_end": "2025-08-31",
+    "accession": "0000909832-26-000093",
+    "items": {
+      "total_revenue": {
+        "label": "Total revenue",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "current": {
+          "value": 303154000000.0,
+          "end": "2026-08-30",
+          "start": "2025-09-01",
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        },
+        "prior": {
+          "value": 275235000000.0,
+          "end": "2025-08-31",
+          "start": "2024-09-02",
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        }
+      },
+      "operating_income": {
+        "label": "Operating income",
+        "tag": "OperatingIncomeLoss",
+        "current": {
+          "value": 11685000000.0,
+          "end": "2026-08-30",
+          "start": "2025-09-01",
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        },
+        "prior": {
+          "value": 10383000000.0,
+          "end": "2025-08-31",
+          "start": "2024-09-02",
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        }
+      },
+      "net_income": {
+        "label": "Net income attributable to the company",
+        "tag": "NetIncomeLoss",
+        "current": {
+          "value": 9226000000.0,
+          "end": "2026-08-30",
+          "start": "2025-09-01",
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        },
+        "prior": {
+          "value": 8099000000.0,
+          "end": "2025-08-31",
+          "start": "2024-09-02",
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        }
+      },
+      "diluted_eps": {
+        "label": "Diluted EPS (GAAP)",
+        "tag": "EarningsPerShareDiluted",
+        "current": {
+          "value": 20.76,
+          "end": "2026-08-30",
+          "start": "2025-09-01",
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD/shares"
+        },
+        "prior": {
+          "value": 18.21,
+          "end": "2025-08-31",
+          "start": "2024-09-02",
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD/shares"
+        }
+      },
+      "stockholders_equity": {
+        "label": "Stockholders' equity",
+        "tag": "StockholdersEquity",
+        "current": {
+          "value": 35803000000.0,
+          "end": "2026-08-30",
+          "start": null,
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        },
+        "prior": {
+          "value": 29164000000.0,
+          "end": "2025-08-31",
+          "start": null,
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        }
+      },
+      "long_term_debt_noncurrent": {
+        "label": "Long-term debt (noncurrent)",
+        "tag": "LongTermDebtNoncurrent",
+        "current": {
+          "value": 3914000000.0,
+          "end": "2026-08-30",
+          "start": null,
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        },
+        "prior": {
+          "value": 5713000000.0,
+          "end": "2025-08-31",
+          "start": null,
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        }
+      },
+      "long_term_debt_current": {
+        "label": "Current portion of long-term debt",
+        "tag": "LongTermDebtCurrent",
+        "current": {
+          "value": 2248000000.0,
+          "end": "2026-08-30",
+          "start": null,
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        },
+        "prior": {
+          "value": 75000000.0,
+          "end": "2025-08-31",
+          "start": null,
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        }
+      },
+      "cash_from_operations": {
+        "label": "Cash from operations",
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "current": {
+          "value": 15817000000.0,
+          "end": "2026-08-30",
+          "start": "2025-09-01",
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        },
+        "prior": {
+          "value": 13335000000.0,
+          "end": "2025-08-31",
+          "start": "2024-09-02",
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        }
+      },
+      "capex": {
+        "label": "Additions to property and equipment",
+        "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "current": {
+          "value": 6435000000.0,
+          "end": "2026-08-30",
+          "start": "2025-09-01",
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        },
+        "prior": {
+          "value": 5498000000.0,
+          "end": "2025-08-31",
+          "start": "2024-09-02",
+          "accn": "0000909832-26-000093",
+          "form": "10-K",
+          "unit": "USD"
+        }
+      }
+    }
+  },
+  "ratios": {
+    "revenue_growth": {
+      "value": 0.10143695387577889,
+      "arithmetic": "303,154M / 275,235M - 1 = 10.14%"
+    },
+    "operating_margin": {
+      "value": 0.03854476602650798,
+      "arithmetic": "11,685M / 303,154M = 3.85%"
+    },
+    "return_on_average_equity": {
+      "value": 0.284021118413964,
+      "arithmetic": "9,226M / ((35,803M + 29,164M) / 2 = 32,484M) = 28.40%"
+    },
+    "debt_to_equity": {
+      "value": 0.17210848252939698,
+      "arithmetic": "(3,914M + 2,248M current) / 35,803M = 0.17x"
+    },
+    "free_cash_flow": {
+      "value": 9382000000.0,
+      "arithmetic": "15,817M - 6,435M = 9,382M"
+    },
+    "pe": {
+      "value": 43.18304431599229,
+      "arithmetic": "$896.48 / $20.76 = 43.2x"
+    }
+  },
+  "quarter": {
+    "revenue_lines": [
+      "Total revenue 95,723 86,156 303,154 275,235"
+    ],
+    "eps_lines": [
+      "Diluted $ 6.75 $ 5.87 $ 20.76 $ 18.21"
+    ]
+  },
+  "peers": [
+    {
+      "ticker": "WMT",
+      "name": "Walmart Inc.",
+      "fiscal_year_end": "2026-01-31",
+      "accession": "0000104169-26-000055",
+      "revenue": {
+        "value": 713163000000.0,
+        "end": "2026-01-31"
+      },
+      "revenue_tag": "Revenues",
+      "operating_income": {
+        "value": 29825000000.0,
+        "end": "2026-01-31"
+      },
+      "operating_margin": {
+        "value": 0.041820733829433104,
+        "arithmetic": "29,825M / 713,163M = 4.18%"
+      }
+    },
+    {
+      "ticker": "TGT",
+      "name": "TARGET CORP",
+      "fiscal_year_end": "2026-01-31",
+      "accession": "0000027419-26-000016",
+      "revenue": {
+        "value": 104780000000.0,
+        "end": "2026-01-31"
+      },
+      "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "operating_income": {
+        "value": 5117000000.0,
+        "end": "2026-01-31"
+      },
+      "operating_margin": {
+        "value": 0.048835655659477,
+        "arithmetic": "5,117M / 104,780M = 4.88%"
+      }
+    },
+    {
+      "ticker": "BJ",
+      "name": "BJ's Wholesale Club Holdings, Inc.",
+      "fiscal_year_end": "2026-01-31",
+      "accession": "0001531152-26-000007",
+      "revenue": {
+        "value": 21457274000.0,
+        "end": "2026-01-31"
+      },
+      "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "operating_income": {
+        "value": 816604000.0,
+        "end": "2026-01-31"
+      },
+      "operating_margin": {
+        "value": 0.03805721080879146,
+        "arithmetic": "817M / 21,457M = 3.81%"
+      }
+    }
+  ],
+  "xbrl_index": {
+    "RevenueFromContractWithCustomerExcludingAssessedTax": {
+      "2024-09-01": 254453000000.0,
+      "2025-08-31": 275235000000.0,
+      "2026-08-30": 303154000000.0
+    },
+    "OperatingIncomeLoss": {
+      "2024-09-01": 9285000000.0,
+      "2025-08-31": 10383000000.0,
+      "2026-08-30": 11685000000.0
+    },
+    "NetIncomeLoss": {
+      "2024-09-01": 7367000000.0,
+      "2025-08-31": 8099000000.0,
+      "2026-08-30": 9226000000.0
+    },
+    "EarningsPerShareDiluted": {
+      "2024-09-01": 16.56,
+      "2025-08-31": 18.21,
+      "2026-08-30": 20.76
+    },
+    "StockholdersEquity": {
+      "2024-09-01": 23622000000.0,
+      "2025-08-31": 29164000000.0,
+      "2026-08-30": 35803000000.0
+    },
+    "LongTermDebtNoncurrent": {
+      "2025-08-31": 5713000000.0,
+      "2026-08-30": 3914000000.0
+    },
+    "LongTermDebtCurrent": {
+      "2025-08-31": 75000000.0,
+      "2026-08-30": 2248000000.0
+    },
+    "NetCashProvidedByUsedInOperatingActivities": {
+      "2024-09-01": 11339000000.0,
+      "2025-08-31": 13335000000.0,
+      "2026-08-30": 15817000000.0
+    },
+    "PaymentsToAcquirePropertyPlantAndEquipment": {
+      "2024-09-01": 4710000000.0,
+      "2025-08-31": 5498000000.0,
+      "2026-08-30": 6435000000.0
+    }
+  },
+  "provenance": "Steps output assembled from EDGAR through the browser (this environment could not reach EDGAR or a model API). The four roles did not run; report.md is a fallback written on these facts."
+}
