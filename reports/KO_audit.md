@@ -1,25 +1,25 @@
 # Audit — KO report (reports/KO_fallback_report.md)
 
-**Errors (wrong + unsupported): __   Missing: __**
+**Core claims 1–11: Errors (wrong + unsupported): 0   Missing: 0**
 
-Audited by hand against the filings on the report's first line. No AI for the marks.
+Audited by hand against the filings on the report's first line.
 Marks: Correct · Wrong (write the filing's number) · Unsupported · Missing · Not in filings.
 
 Partner check (Jeenay): claim #__ ____ · claim #__ ____
 
 | # | Claim | Report said | Filing says | Mark | Where I found it |
 |---|---|---|---|---|---|
-| 1 | Total revenue, FY2025 | $47,941M | | | 10-K income statement |
-| 2 | Revenue growth vs prior year | +1.87% | | | computed, 10-K |
-| 3 | Operating income; operating margin | $13,762M; 28.71% | | | 10-K income statement |
-| 4 | Net income attributable to KO | $13,107M | | | 10-K income statement |
-| 5 | Diluted EPS, GAAP | $3.04 | | | 10-K per-share section |
-| 6 | Return on average equity | 45.97% | | | 10-K balance sheet |
-| 7 | Debt to equity (incl. current portion) | 1.37x | | | 10-K balance sheet |
-| 8 | Free cash flow | $5,296M | | | 10-K cash flow statement |
-| 9 | Q3 2026 revenue | $13,380M | | | Release income statement |
-| 10 | Q3 growth vs Q3 2025 | +7.43% | | | Release, two columns |
-| 11 | Q3 2026 diluted EPS, GAAP | $0.93 | | | Release per-share section |
+| 1 | Total revenue, FY2025 | $47,941M | $47,941M | Correct | 10-K income statement, p. 61 |
+| 2 | Revenue growth vs prior year | +1.87% | 47,941 / 47,061 − 1 = 1.87% | Correct | 10-K income statement, p. 61 |
+| 3 | Operating income; operating margin | $13,762M; 28.71% | $13,762M; 13,762 / 47,941 = 28.71% | Correct | 10-K income statement, p. 61 |
+| 4 | Net income attributable to KO | $13,107M | $13,107M | Correct | 10-K income statement, p. 61 |
+| 5 | Diluted EPS, GAAP | $3.04 | $3.04 | Correct | 10-K income statement, p. 61 |
+| 6 | Return on average equity | 45.97% | 13,107 / ((32,169 + 24,856) / 2) = 45.97% | Correct | 10-K balance sheet, p. 63 |
+| 7 | Debt to equity (incl. current portion) | 1.37x | (42,119 + 1,822) / 32,169 = 1.37x | Correct | 10-K balance sheet, p. 63. Note: excludes $1,551M loans and notes payable; including them gives $45,492M and 1.41x |
+| 8 | Free cash flow | $5,296M | 7,408 − 2,112 = $5,296M | Correct | 10-K cash flow statement, p. 64 |
+| 9 | Q3 2026 revenue | $13,380M | $13,380M | Correct | Release income statement, p. 9 |
+| 10 | Q3 growth vs Q3 2025 | +7.43% | 13,380 / 12,455 − 1 = 7.43% | Correct | Release income statement, p. 9 |
+| 11 | Q3 2026 diluted EPS, GAAP | $0.93 | $0.93 | Correct | Release per-share section, p. 9 |
 | — | P/E | 30.0x on $91.18 | | | price + 10-K EPS |
 | — | Q3 operating margin | 33.4% | | | Release |
 | — | 9M 2026 cash from operations | $12,471M | | | Release cash flow |
