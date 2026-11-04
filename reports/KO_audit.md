@@ -1,6 +1,7 @@
 # Audit — KO report (reports/KO_fallback_report.md)
 
-**Core claims 1–11: Errors (wrong + unsupported): 0   Missing: 0**
+**Core claims 1–11: Errors (wrong + unsupported): 0   Missing: 0**  
+Other numbers checked (P/E, Q3 margin, 9M cash flow): 0 errors. Peer margins not checked.
 
 Audited by hand against the filings on the report's first line.
 Marks: Correct · Wrong (write the filing's number) · Unsupported · Missing · Not in filings.
@@ -20,10 +21,10 @@ Partner check (Jeenay): claim #__ ____ · claim #__ ____
 | 9 | Q3 2026 revenue | $13,380M | $13,380M | Correct | Release income statement, p. 9 |
 | 10 | Q3 growth vs Q3 2025 | +7.43% | 13,380 / 12,455 − 1 = 7.43% | Correct | Release income statement, p. 9 |
 | 11 | Q3 2026 diluted EPS, GAAP | $0.93 | $0.93 | Correct | Release per-share section, p. 9 |
-| — | P/E | 30.0x on $91.18 | | | price + 10-K EPS |
-| — | Q3 operating margin | 33.4% | | | Release |
-| — | 9M 2026 cash from operations | $12,471M | | | Release cash flow |
-| — | PEP operating margin | 12.24% | | | PEP 10-K |
-| — | KDP operating margin | 21.53% | | | KDP 10-K |
+| — | P/E | 30.0x on $91.18 | 91.18 / 3.04 = 29.99 → 30.0x | Correct | price given + 10-K EPS, p. 61 |
+| — | Q3 operating margin | 33.4% | 4,465 / 13,380 = 33.4% | Correct | Release income statement, p. 9 |
+| — | 9M 2026 cash from operations | $12,471M | $12,471M | Correct | Release cash flow statement, p. 12 |
+| — | PEP operating margin | 12.24% | not checked | — | PEP 10-K |
+| — | KDP operating margin | 21.53% | not checked | — | KDP 10-K |
 | Template | five parts present | | | | — |
 | Recommendation | Hold, on P/E 30.0x | | | | — |
