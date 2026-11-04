@@ -5,3 +5,4 @@ openai
 anthropic
 google-genai
 pytest
+langgraph
