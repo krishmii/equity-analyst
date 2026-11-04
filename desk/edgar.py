@@ -131,7 +131,11 @@ def download_documents(cik, company, picks, out_root="runs"):
     stamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
     slug = re.sub(r"[^A-Za-z0-9]+", "_", company).strip("_")
     folder = os.path.join(out_root, f"{slug}_{stamp}")
-    os.makedirs(folder, exist_ok=True)
+    n = 2
+    while os.path.exists(folder):  # never overwrite an earlier run
+        folder = os.path.join(out_root, f"{slug}_{stamp}_{n}")
+        n += 1
+    os.makedirs(folder)
     saved = {}
     for form, rec in picks.items():
         if form == "8-K":
