@@ -86,6 +86,6 @@ Thesis: KO is a high-quality compounder — a 28.71% operating margin, more than
 
 This is a learning exercise, not financial advice.
 
-AI assistance: [the tools you used]. I verified the sources myself; the judgments are mine.
+AI assistance: Claude (Anthropic), used in Claude in Chrome and Cowork to build the desk code and draft this fallback report. I verified the sources myself; the judgments are mine.
 
 Any remaining errors are my own.
